@@ -36,7 +36,7 @@
       <el-checkbox-group v-model="checkList">
         <el-checkbox label="前一小时下单减1618"></el-checkbox>
         <el-checkbox label="每满200减30(85)折"></el-checkbox>
-        <el-checkbox label="没满1万减518(9482折)"></el-checkbox>
+        <el-checkbox label="每满1万减518(9482折)"></el-checkbox>
         <el-checkbox label="0点红包雨618"></el-checkbox>
         <el-checkbox label="门店下单减200"></el-checkbox>
       </el-checkbox-group>
@@ -69,7 +69,7 @@
                         num=num-1618
                     }else if(item==="每满200减30(85)折"){
                         num=num*85/100
-                    }else if(item==="没满1万减518(9482折)"){
+                    }else if(item==="每满1万减518(9482折)"){
                         num=num*9482/10000
                     }else if(item==="0点红包雨618"){
                         num=num-618
